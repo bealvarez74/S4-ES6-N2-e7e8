@@ -1,11 +1,24 @@
 
+// Exercici 7
+let nums1 = prompt("Introdueix el primer número");
+let nums2 = prompt("Introdueix el segon número");
+let i;
 
- //Exercici 8
+function Multiplicar(){
+    for(i=0;i<=nums2;i++){
+      res=i*nums1;
+      document.getElementById('multiplication').innerHTML +=`${nums1} x ${i} = ${res}<br>`;
+    }
+  }
+  Multiplicar();
+ 
+ 
+  //Exercici 8
  
  // variables
  var num1 = document.getElementById('num1');
  var num2 = document.getElementById('num2');
- let i;
+
  generaTaula=" ";
  
 const form = document.getElementById('myFormId');
