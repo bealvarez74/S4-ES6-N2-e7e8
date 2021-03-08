@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+form {width:80%;
+margin:auto;}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:6rem;
+    padding:2rem;
+}
+.tablasmultiplicar{
+    width: 80%;
+    margin:auto;
+}
+
+table, td, th {
+    width:50%;
+    margin:auto;
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 15px;
+}
+
+td {
+    text-align:center;
+    vertical-align:middle;
+}

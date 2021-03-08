@@ -4,21 +4,52 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>S4 Nivel 2</title>
-
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS styles-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">	
-	<h2>Exercici 7 Nivel 2</h2>
-	<div id="tabla"></div>
+  <h2>Exercici 8 Nivel 2</h2>
+  <p>Realitzar un programa en ES6, amb al menys una funció.
+    Aquest programa demana a l'usuari dos nombres de l'1 a l'10. 
+    Un cop introduïts, es mostra per pantalla la taula de multiplicar del número 1 que va fins al número 2.</p>
+    
+    <form  id="myFormId" name="myForm">  
+      <div class="form-group col-md-5">
+			  <label for="primernumero">Primer número</label>
+			   <input type="text" class="form-control" id="num1">
+			   <div class="invalid-feedback" id="errornum1"></div>
+			</div>
+
+      <div class="form-group col-md-5">
+			  <label for="segonnumero">Segon número</label>
+			   <input type="text" class="form-control" id="num2">
+			   <div class="invalid-feedback" id="errornum2"></div>
+			</div>
+      <button type="button" onclick="validate_mult()" class="btn btn-primary">Resultat</button>
+    </form>
+
+
+  <div class="tablasmultiplicar">
+    <table id="tabla">
+        <tr><td></td><td></td></tr>
+    </table>
+ </div>
+	
 </div>
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="javascript.js"></script>
+	<script src="javascript.js" type="text/javascript"></script>
 
 </body>
 </html>
