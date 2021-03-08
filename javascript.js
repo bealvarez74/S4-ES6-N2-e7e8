@@ -1,14 +1,14 @@
 
-// versio 1 funciona
-let num1 = prompt("Introdueix el primer número");
-let num2 = prompt("Introdueix el segon número");
+// Exercici 7
+let nums1 = prompt("Introdueix el primer número");
+let nums2 = prompt("Introdueix el segon número");
 let i
 
 function Multiplicar(){
-    for(i=0;i<=num2;i++)
+    for(i=0;i<=nums2;i++)
     {
-      resultat=i*num1;
-      document.write(`${num1} x ${i} = ${resultat}<br>`);
+      res=i*num1;
+      document.getElementById('multiplication').innerHTML+=`${nums1} x ${i} = ${res}<br>`;
     }
   }
   Multiplicar();
